@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  
+    background-color: #e5e5e5;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.center{
+    width: 35%;
+    height: auto;
+    background-color: #1d1d23;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    height: 5vh;
+    width : auto ;
+    background-color: #34344a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 15px;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 15px;
+    
+    
+
+}
+input{
+    width: 35px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin: 6px;
+    
+    
+}
+
+#startTimer{
+    background:#f0f757 ;
+    border: none;
+    color: #000!important;
+    font-size: 15px!important;
+    padding: 5px  20px!important;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 5vh;
+}
+
+
+#activeTimers{
+  position: relative;
+  bottom: 70px;
+
+}
+
+#para{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-right: 12px;
+}
+
+#heading{
+   
+    font-size: 15px;
+    background-color: #39393e;
+    color: white;
+    height: 3vh;
+    width: 10vw;
+    padding: 5px  40px!important;
+    border-radius: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+   
+}
+
+.timer-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding-left: 50px !important;
+    padding: 10px;
+  
+    border-radius: 10px;
+    background-color: #34344a;
+}
+
+
+.timer {
+    font-size: 18px;
+    color: #fff;
+}
+
+.timer-ended {
+    color: #fff;
+    margin-left: 80px;
+    
+    
+}
+
+.time-left {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.control-button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.control{
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    
+}
+
+.stop-button {
+    background-color: #f0f757;
+    color: #000;
+}
+
+.stop-button:hover {
+    background-color:  #000;
+    color: #fff;
+}
+
+.delete-button {
+    background-color: #f0f757;
+    color: #000;
+    
+}
+
+.delete-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#heading {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: 20px;
+    margin: auto;
+}
